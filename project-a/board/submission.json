@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:50:29.427Z",
+  "savedAt": "2026-05-27T05:52:41.451Z",
   "groups": [
     {
       "id": "dd6bee45-ab23-4d93-8de9-32242125c00e",
@@ -32,6 +32,16 @@
       "id": "07999308-332c-4e1e-81b1-7c9cf402535c",
       "title": "US002: Early Morning Class Warning",
       "description": "As a Student, I want to receive an immediate warning when adding an 8:00 AM class to my calendar, so that I can avoid oversleeping and missing lectures.\n\nAcceptance Criteria:\n- [ ] Verify that a prominent visual warning notification appears immediately when a class starting at exactly 8:00 AM is added to the calendar.\n- [ ] Verify that the warning does not block the user from adding the class, but explicitly mentions the risk of oversleeping.",
+      "groupId": "2b1ccaf3-1cd2-49ee-94c9-6d4787a36f52",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Low",
+      "owner": ""
+    },
+    {
+      "id": "c3d15b57-9711-4257-89ab-aa43164fe8f4",
+      "title": "US003: Real-time Course Availability Validation",
+      "description": "As a Student, I want the system to block me from adding a class that is already full according to the live database, so that I do not plan a roadmap around unavailable slots.\n\nAcceptance Criteria:\n- [ ] Verify that the system fetches real-time enrollment data from the registrar database when a user attempts to add a class.\n- [ ] Verify that if a class has zero open slots, an error message is displayed and the course cannot be committed to the active schedule.",
       "groupId": "2b1ccaf3-1cd2-49ee-94c9-6d4787a36f52",
       "status": "todo",
       "type": "User Story",
