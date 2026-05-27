@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:34:55.628Z",
+  "savedAt": "2026-05-27T05:35:37.791Z",
   "groups": [
     {
       "id": "942464cf-fec6-4f99-afec-46c5d5afff81",
@@ -20,7 +20,7 @@
   "tickets": [],
   "analysis": {
     "ambiguity1": "The Cafeteria Manager requests that students should be able to order food on their phone \"while they are walking from class\". This is functionally ambiguous as it does not define the geographical boundaries or timing constraints—should the app accept orders from anywhere outside the campus, or should it use geofencing to limit orders within a certain distance to ensure food quality and timely pickup?",
-    "ambiguity2": "",
+    "ambiguity2": "The Marketing Department wants to send push notifications to students at 11:30 AM offering them a \"discount on the daily special\". This is vague because it does not define the business rules for the discount (e.g., fixed percentage vs. absolute amount), target segment criteria (all students vs. only active app users), or system throttling to prevent a server crash from sudden traffic spikes at 11:30 AM.",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",
