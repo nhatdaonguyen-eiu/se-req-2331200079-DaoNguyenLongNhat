@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:54:30.365Z",
+  "savedAt": "2026-05-27T05:55:37.963Z",
   "groups": [
     {
       "id": "dd6bee45-ab23-4d93-8de9-32242125c00e",
@@ -56,6 +56,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "High",
+      "owner": ""
+    },
+    {
+      "id": "3253bddf-a75a-4828-bf25-16eedae35a83",
+      "title": "US005: Strict Schedule Privacy",
+      "description": "As a Student, I want the system to completely restrict other students from viewing my academic roadmap, so that my personal data and schedule remain private.\n\nAcceptance Criteria:\n- [ ] Verify that a logged-in student cannot access or view another student's roadmap via direct URL manipulation or API requests.\n- [ ] Verify that the system throws a \"403 Forbidden\" or unauthorized access error if a cross-account data request is detected.",
+      "groupId": "2b1ccaf3-1cd2-49ee-94c9-6d4787a36f52",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Urgent",
       "owner": ""
     }
   ],
