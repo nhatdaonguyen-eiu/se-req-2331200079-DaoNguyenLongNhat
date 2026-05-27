@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T06:05:48.669Z",
+  "savedAt": "2026-05-27T06:06:25.377Z",
   "groups": [
     {
       "id": "33d396ef-f05c-473a-a8be-7b8ff6934067",
@@ -66,6 +66,36 @@
       "status": "todo",
       "type": "User Story",
       "priority": "Urgent",
+      "owner": ""
+    },
+    {
+      "id": "4deaaa41-3e72-48a5-aef3-100121814557",
+      "title": "NFR Epic 1: The system must restrict account creation strictly to authorized users",
+      "description": "The system must restrict account creation strictly to authorized users with valid university domain credentials (.edu).",
+      "groupId": "37b84266-ae88-4c2a-ae00-11d11c3efd6e",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "82f39726-4981-40ce-90fb-a08b3c7a598d",
+      "title": "NFR Epic 2: The system must enforce physical safety protocols by requiring users t",
+      "description": "The system must enforce physical safety protocols by requiring users to select an official, pre-defined 'Safe Exchange Zone' before opening a chat session.",
+      "groupId": "37b84266-ae88-4c2a-ae00-11d11c3efd6e",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "fc10af87-6d63-4b7a-a896-ab05c3730df8",
+      "title": "NFR Epic 3: The mobile barcode scanning module must accurately process and decode ",
+      "description": "The mobile barcode scanning module must accurately process and decode book ISBN barcodes within a reasonable response time using the smartphone's built-in camera.",
+      "groupId": "37b84266-ae88-4c2a-ae00-11d11c3efd6e",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
       "owner": ""
     }
   ],
