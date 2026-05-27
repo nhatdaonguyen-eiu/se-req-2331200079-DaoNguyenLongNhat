@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T06:04:50.311Z",
+  "savedAt": "2026-05-27T06:05:48.669Z",
   "groups": [
     {
       "id": "33d396ef-f05c-473a-a8be-7b8ff6934067",
@@ -56,6 +56,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "Low",
+      "owner": ""
+    },
+    {
+      "id": "41c77c0f-2c2f-4ce0-8349-4f157519af32",
+      "title": "US005: Ban External or Abusive Accounts",
+      "description": "As an Administrator, I want to ban or suspend accounts that violate safety guidelines or use non-student credentials, so that I can maintain a secure and safe marketplace on campus.\n\nAcceptance Criteria:\n- [ ] Verify that an administrator account has an administrative panel with the option to view all active users and their transaction flags.\n- [ ] Verify that clicking the \"Ban User\" button instantly revokes that user's login access token and restricts them from placing bids or sending chat mess",
+      "groupId": "37b84266-ae88-4c2a-ae00-11d11c3efd6e",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Urgent",
       "owner": ""
     }
   ],
