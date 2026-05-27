@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:24:13.024Z",
+  "savedAt": "2026-05-27T05:25:27.846Z",
   "groups": [
     {
       "id": "80358083-194c-4788-a1c8-084cb72796b7",
@@ -21,7 +21,7 @@
   "analysis": {
     "ambiguity1": "The course catalog is ugly. I just want to drag and drop classes into a calendar to see if they fit. I want the app to warn me if I am choosing a class that starts at 8:00 AM because I will definitely oversleep.",
     "ambiguity2": "Student data is sensitive. Under no circumstances should a student be able to see another student schedule. Also, the system must log every time an advisor manually overrides a prerequisite for audit purposes.",
-    "conflictSolution": "",
+    "conflictSolution": "Conflict: The Head of Advising wants students to be able to plan their roadmaps 4 years ahead regardless of course availability, whereas the Registrar states that students shouldn't be able to add a class if it is already full according to the live database.\n\nProposed Solution: Allow students to add any course to their long-term roadmap as a \"Draft/Planned\" status for future semesters. However, for the current or upcoming registration term, the system will validate against the live database; if a class is full, it will display a visual warning or add the student to a waiting list rather than blocking long-term planning.",
     "nfr1": "",
     "nfr2": "",
     "nfr3": ""
