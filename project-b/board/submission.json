@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T06:02:06.711Z",
+  "savedAt": "2026-05-27T06:03:07.747Z",
   "groups": [
     {
       "id": "33d396ef-f05c-473a-a8be-7b8ff6934067",
@@ -26,6 +26,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "474a0af2-ba2e-4814-a11f-0fb784ae98da",
+      "title": "US002: Enforced Safe Exchange Zone Selection",
+      "description": "As a Student, I want the app to force me to select a pre-defined Safe Exchange Zone before I can chat with a seller, so that our physical meetup on campus is safe.\n\nAcceptance Criteria:\n- [ ] Verify that when a buyer initiates a conversation, a mandatory popup forces them to select from a list of campus-approved Safe Exchange Zones (e.g., library lobby).\n- [ ] Verify that the chat interface remains locked and inaccessible until a safe zone is explicitly selected.\n- [ ] Verify that the selected e",
+      "groupId": "37b84266-ae88-4c2a-ae00-11d11c3efd6e",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Low",
       "owner": ""
     }
   ],
