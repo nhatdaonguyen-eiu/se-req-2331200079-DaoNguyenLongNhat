@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T06:03:07.747Z",
+  "savedAt": "2026-05-27T06:04:03.843Z",
   "groups": [
     {
       "id": "33d396ef-f05c-473a-a8be-7b8ff6934067",
@@ -36,6 +36,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "Low",
+      "owner": ""
+    },
+    {
+      "id": "f052c134-c554-455b-bb80-4c2ff8d08992",
+      "title": "US003: Barcode Scanning for Textbook Details",
+      "description": "As a Student, I want to scan a textbook's barcode using my phone camera to automatically fetch its ISBN and title, so that I can list items quickly without manual typing.\n\nAcceptance Criteria:\n- [ ] Verify that tapping the barcode scanner button successfully activates the smartphone's built-in camera.\n- [ ] Verify that positioning a valid textbook barcode within the camera viewfinder accurately decodes and populates the ISBN and Title input fields within 3 seconds.\n- [ ] Verify that the system a",
+      "groupId": "37b84266-ae88-4c2a-ae00-11d11c3efd6e",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
       "owner": ""
     }
   ],
