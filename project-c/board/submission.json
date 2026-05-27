@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T06:52:44.717Z",
+  "savedAt": "2026-05-27T06:53:55.769Z",
   "groups": [
     {
       "id": "cf0e5598-4027-496b-9915-8d17d4bb111a",
@@ -36,6 +36,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "Low",
+      "owner": ""
+    },
+    {
+      "id": "34930372-356b-478c-a997-4e734c119bdf",
+      "title": "US003: Instant Item Sold-Out Trigger",
+      "description": "As an Administrator, I want to instantly mark a menu item as 'Sold Out' on my display screen, so that students cannot continue ordering unavailable items.\n\nAcceptance Criteria:\n- [ ] Verify that the kitchen display dashboard offers a toggle interface to alter item stock availability status.\n- [ ] Verify that changing an item status to 'Sold Out' prevents any further student mobile checkout transactions for that item.\n- [ ] Verify that an intuitive notification alert flashes on the kitchen consol",
+      "groupId": "e4b7bb6c-7885-4a3a-ab0c-40dc168441ec",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
       "owner": ""
     }
   ],
