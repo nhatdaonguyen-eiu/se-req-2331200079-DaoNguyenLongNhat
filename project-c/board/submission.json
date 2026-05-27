@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T06:56:09.005Z",
+  "savedAt": "2026-05-27T06:57:09.831Z",
   "groups": [
     {
       "id": "cf0e5598-4027-496b-9915-8d17d4bb111a",
@@ -66,6 +66,36 @@
       "status": "todo",
       "type": "User Story",
       "priority": "Urgent",
+      "owner": ""
+    },
+    {
+      "id": "d47d03a5-985c-49fd-9c6c-efffeeed1a80",
+      "title": "NFR Epic 1: The Kitchen Display System must maintain local offline operational cap",
+      "description": "The Kitchen Display System must maintain local offline operational capabilities for a minimum of 10 minutes without crashing during Wi-Fi disruptions, and automatically sync data once recovered.",
+      "groupId": "e4b7bb6c-7885-4a3a-ab0c-40dc168441ec",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "ae4aee3f-a683-4dbf-99af-614b1db6ea08",
+      "title": "NFR Epic 2: The user interface must support strict ingredient filtering and profil",
+      "description": "The user interface must support strict ingredient filtering and profile anxiety-reducing menu configurations to ensure safety for users with severe food allergies.",
+      "groupId": "e4b7bb6c-7885-4a3a-ab0c-40dc168441ec",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "0a20156d-fd13-4cce-9f4a-8be5851732e8",
+      "title": "NFR Epic 3: he order distribution and synchronization pipeline must handle high-co",
+      "description": "he order distribution and synchronization pipeline must handle high-concurrency requests during peak lunch rush windows to effectively minimize physical queue lengths.",
+      "groupId": "e4b7bb6c-7885-4a3a-ab0c-40dc168441ec",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
       "owner": ""
     }
   ],
