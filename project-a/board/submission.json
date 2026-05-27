@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:22:30.398Z",
+  "savedAt": "2026-05-27T05:24:13.024Z",
   "groups": [
     {
       "id": "80358083-194c-4788-a1c8-084cb72796b7",
@@ -20,7 +20,7 @@
   "tickets": [],
   "analysis": {
     "ambiguity1": "The course catalog is ugly. I just want to drag and drop classes into a calendar to see if they fit. I want the app to warn me if I am choosing a class that starts at 8:00 AM because I will definitely oversleep.",
-    "ambiguity2": "",
+    "ambiguity2": "Student data is sensitive. Under no circumstances should a student be able to see another student schedule. Also, the system must log every time an advisor manually overrides a prerequisite for audit purposes.",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",
