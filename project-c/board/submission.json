@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-05-27T05:34:55.628Z",
+  "groups": [
+    {
+      "id": "942464cf-fec6-4f99-afec-46c5d5afff81",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "e689495c-a97a-4184-9519-05d2460abaff",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "68fabdb5-7cf6-4eaf-9d48-c8393f162d36",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "The Cafeteria Manager requests that students should be able to order food on their phone \"while they are walking from class\". This is functionally ambiguous as it does not define the geographical boundaries or timing constraints—should the app accept orders from anywhere outside the campus, or should it use geofencing to limit orders within a certain distance to ensure food quality and timely pickup?",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
