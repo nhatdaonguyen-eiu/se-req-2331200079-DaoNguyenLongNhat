@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:55:37.963Z",
+  "savedAt": "2026-05-27T05:57:42.731Z",
   "groups": [
     {
       "id": "dd6bee45-ab23-4d93-8de9-32242125c00e",
@@ -66,6 +66,36 @@
       "status": "todo",
       "type": "User Story",
       "priority": "Urgent",
+      "owner": ""
+    },
+    {
+      "id": "8b272251-28da-49d0-b1aa-3e13eae76274",
+      "title": "NFR Epic 1: The system must guarantee strict data privacy so that students are com",
+      "description": "The system must guarantee strict data privacy so that students are completely restricted from viewing any other student's academic roadmap or schedule.",
+      "groupId": "2b1ccaf3-1cd2-49ee-94c9-6d4787a36f52",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "b61d5e5b-eafe-45d0-9edd-68bed698ed78",
+      "title": "NFR Epic 2: The system must maintain a comprehensive and immutable log of all manu",
+      "description": "The system must maintain a comprehensive and immutable log of all manual prerequisite overrides executed by advisors for auditing and compliance purposes.",
+      "groupId": "2b1ccaf3-1cd2-49ee-94c9-6d4787a36f52",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "ce697e22-f158-4800-a7ec-6c87c9139323",
+      "title": "NFR Epic 3: The system must seamlessly integrate and synchronize with the universi",
+      "description": "The system must seamlessly integrate and synchronize with the university's live registration database to ensure real-time course availability checks during active scheduling.",
+      "groupId": "2b1ccaf3-1cd2-49ee-94c9-6d4787a36f52",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
       "owner": ""
     }
   ],
