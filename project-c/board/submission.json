@@ -1,29 +1,40 @@
 {
-  "savedAt": "2026-05-27T05:38:09.197Z",
+  "savedAt": "2026-05-27T06:13:41.517Z",
   "groups": [
     {
-      "id": "942464cf-fec6-4f99-afec-46c5d5afff81",
+      "id": "cf0e5598-4027-496b-9915-8d17d4bb111a",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "e689495c-a97a-4184-9519-05d2460abaff",
+      "id": "e4b7bb6c-7885-4a3a-ab0c-40dc168441ec",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "68fabdb5-7cf6-4eaf-9d48-c8393f162d36",
+      "id": "d924d2a5-d721-4598-8117-92023b48ac24",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "78c514e8-8b0d-4601-901b-9c22278dca39",
+      "title": "US001: Mobile Food Ordering Management",
+      "description": "As a Student, I want to order food on my phone while walking from class, so that I can bypass the 20-minute physical lunch lines at the main cafeteria.\n\nAcceptance Criteria:\n- [ ] Verify that a logged-in student can browse the active menu, select items, and place a remote order.\n- [ ] Verify that upon order placement, the system generates a unique pickup token and displays an estimated preparation time.\n- [ ] Verify that the order is instantly transmitted to the kitchen display network.",
+      "groupId": "e4b7bb6c-7885-4a3a-ab0c-40dc168441ec",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    }
+  ],
   "analysis": {
     "ambiguity1": "The Cafeteria Manager requests that students should be able to order food on their phone \"while they are walking from class\". This is functionally ambiguous as it does not define the geographical boundaries or timing constraints—should the app accept orders from anywhere outside the campus, or should it use geofencing to limit orders within a certain distance to ensure food quality and timely pickup?",
     "ambiguity2": "The Marketing Department wants to send push notifications to students at 11:30 AM offering them a \"discount on the daily special\". This is vague because it does not define the business rules for the discount (e.g., fixed percentage vs. absolute amount), target segment criteria (all students vs. only active app users), or system throttling to prevent a server crash from sudden traffic spikes at 11:30 AM.",
     "conflictSolution": "Conflict: The Chef requires the ability to instantly mark an item as \"Sold Out\" to prevent accidental orders. However, the IT Infrastructure Team indicates that the cafeteria basement has terrible Wi-Fi and requires the kitchen display system to work offline for at least 10 minutes without crashing. If the system is offline, a \"Sold Out\" update cannot immediately synchronize to students' phones, leading to ordered items that are unavailable.  \n\nResolution: Implement a local inventory buffer and a proactive threshold system on the server side. If a dish's inventory drops below a safe margin (e.g., only 5 portions left), the server will automatically flag it as \"Low Stock\" or temporary \"Sold Out\" on the student-facing app. When the kitchen display goes offline, it will operate on a cached queue ; any local \"Sold Out\" trigger pressed by the chef will be queued and pushed with the highest priority immediately upon reconnection, minimizing the synchronization gap. ",
     "nfr1": "The Kitchen Display System must maintain local offline operational capabilities for a minimum of 10 minutes without crashing during Wi-Fi disruptions, and automatically sync data once recovered.",
     "nfr2": "The user interface must support strict ingredient filtering and profile anxiety-reducing menu configurations to ensure safety for users with severe food allergies.",
-    "nfr3": "The order distribution and synchronization pipeline must handle high-concurrency requests during peak lunch rush windows to effectively minimize physical queue lengths."
+    "nfr3": "he order distribution and synchronization pipeline must handle high-concurrency requests during peak lunch rush windows to effectively minimize physical queue lengths."
   }
 }
