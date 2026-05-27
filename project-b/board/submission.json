@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:32:05.927Z",
+  "savedAt": "2026-05-27T05:33:31.847Z",
   "groups": [
     {
       "id": "a4603eac-be0c-4bff-b0ec-f2817fa1d9d8",
@@ -22,8 +22,8 @@
     "ambiguity1": "he Student Union President states that the platform must be \"exclusive\" to people with a valid .edu email address. However, it is ambiguous because it does not specify whether this restriction applies only to account registration, or if it also restricts browsing items. Additionally, it remains unclear how the system should handle alumni or staff who also possess .edu emails but are no longer active students.",
     "ambiguity2": "A senior student requests the ability to \"auction items\" instead of just setting a fixed price. This is too vague to build because it lacks necessary functional metrics: it does not define the bidding rules, the minimum increment values, the auction duration limits, or how a winner is notified and bound to the transaction.",
     "conflictSolution": "Conflict: The Student Union President wants to collect a 2% transaction fee to fund club activities , but the University Legal Team strictly forbids the app from processing payments or handling money directly, requiring students to pay via Venmo or cash.\n\nResolution: To comply with legal constraints, the app will remain completely cashless and will not integrate any payment gateway. To fund club activities, the Student Union can pivot to an alternative monetization model, such as charging a small flat subscription fee for \"Premium Seller\" accounts (students listing more than a set number of items per month) or charging external student organizations for banner advertisements within the app.",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "nfr1": "The system must restrict account creation strictly to authorized users with valid university domain credentials (.edu).",
+    "nfr2": "The system must enforce physical safety protocols by requiring users to select an official, pre-defined 'Safe Exchange Zone' before opening a chat session.",
+    "nfr3": "The mobile barcode scanning module must accurately process and decode book ISBN barcodes within a reasonable response time using the smartphone's built-in camera."
   }
 }
