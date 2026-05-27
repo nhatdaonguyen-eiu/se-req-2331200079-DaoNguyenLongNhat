@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:35:37.791Z",
+  "savedAt": "2026-05-27T05:36:46.675Z",
   "groups": [
     {
       "id": "942464cf-fec6-4f99-afec-46c5d5afff81",
@@ -21,7 +21,7 @@
   "analysis": {
     "ambiguity1": "The Cafeteria Manager requests that students should be able to order food on their phone \"while they are walking from class\". This is functionally ambiguous as it does not define the geographical boundaries or timing constraints—should the app accept orders from anywhere outside the campus, or should it use geofencing to limit orders within a certain distance to ensure food quality and timely pickup?",
     "ambiguity2": "The Marketing Department wants to send push notifications to students at 11:30 AM offering them a \"discount on the daily special\". This is vague because it does not define the business rules for the discount (e.g., fixed percentage vs. absolute amount), target segment criteria (all students vs. only active app users), or system throttling to prevent a server crash from sudden traffic spikes at 11:30 AM.",
-    "conflictSolution": "",
+    "conflictSolution": "Conflict: The Chef requires the ability to instantly mark an item as \"Sold Out\" to prevent accidental orders. However, the IT Infrastructure Team indicates that the cafeteria basement has terrible Wi-Fi and requires the kitchen display system to work offline for at least 10 minutes without crashing. If the system is offline, a \"Sold Out\" update cannot immediately synchronize to students' phones, leading to ordered items that are unavailable.  \n\nResolution: Implement a local inventory buffer and a proactive threshold system on the server side. If a dish's inventory drops below a safe margin (e.g., only 5 portions left), the server will automatically flag it as \"Low Stock\" or temporary \"Sold Out\" on the student-facing app. When the kitchen display goes offline, it will operate on a cached queue ; any local \"Sold Out\" trigger pressed by the chef will be queued and pushed with the highest priority immediately upon reconnection, minimizing the synchronization gap. ",
     "nfr1": "",
     "nfr2": "",
     "nfr3": ""
