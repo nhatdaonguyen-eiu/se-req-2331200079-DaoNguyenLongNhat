@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-05-27T05:29:07.070Z",
+  "groups": [
+    {
+      "id": "a4603eac-be0c-4bff-b0ec-f2817fa1d9d8",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "20c3234a-38e2-4c5a-b6d4-92884896eca5",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "63cf2803-92fb-42d9-a530-d8e1d11cc834",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "he Student Union President states that the platform must be \"exclusive\" to people with a valid .edu email address. However, it is ambiguous because it does not specify whether this restriction applies only to account registration, or if it also restricts browsing items. Additionally, it remains unclear how the system should handle alumni or staff who also possess .edu emails but are no longer active students.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
