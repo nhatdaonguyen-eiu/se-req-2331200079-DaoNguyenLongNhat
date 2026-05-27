@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T06:04:03.843Z",
+  "savedAt": "2026-05-27T06:04:50.311Z",
   "groups": [
     {
       "id": "33d396ef-f05c-473a-a8be-7b8ff6934067",
@@ -46,6 +46,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "High",
+      "owner": ""
+    },
+    {
+      "id": "5aefcfdb-b26f-43d2-b2cf-76251bfeea14",
+      "title": "US004: Item Auction Capabilities",
+      "description": "As a Student, I want to list my items for an auction rather than just a fixed price, so that I can maximize my potential earnings based on buyer demand.\n\nAcceptance Criteria:\n- [ ] Verify that a seller can choose between \"Fixed Price\" and \"Auction\" when creating a new product listing.\n- [ ] Verify that selecting \"Auction\" forces the seller to enter a starting bid and a specific auction expiration duration.\n- [ ] Verify that potential buyers can input a bid that is strictly higher than the curren",
+      "groupId": "37b84266-ae88-4c2a-ae00-11d11c3efd6e",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Low",
       "owner": ""
     }
   ],
