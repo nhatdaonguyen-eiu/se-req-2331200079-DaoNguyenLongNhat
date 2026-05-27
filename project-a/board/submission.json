@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:44:49.947Z",
+  "savedAt": "2026-05-27T05:50:29.427Z",
   "groups": [
     {
       "id": "dd6bee45-ab23-4d93-8de9-32242125c00e",
@@ -27,14 +27,24 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": ""
+    },
+    {
+      "id": "07999308-332c-4e1e-81b1-7c9cf402535c",
+      "title": "US002: Early Morning Class Warning",
+      "description": "As a Student, I want to receive an immediate warning when adding an 8:00 AM class to my calendar, so that I can avoid oversleeping and missing lectures.\n\nAcceptance Criteria:\n- [ ] Verify that a prominent visual warning notification appears immediately when a class starting at exactly 8:00 AM is added to the calendar.\n- [ ] Verify that the warning does not block the user from adding the class, but explicitly mentions the risk of oversleeping.",
+      "groupId": "2b1ccaf3-1cd2-49ee-94c9-6d4787a36f52",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Low",
+      "owner": ""
     }
   ],
   "analysis": {
-    "ambiguity1": "",
-    "ambiguity2": "",
-    "conflictSolution": "",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "ambiguity1": "The course catalog is ugly. I just want to drag and drop classes into a calendar to see if they fit. I want the app to warn me if I am choosing a class that starts at 8:00 AM because I will definitely oversleep.",
+    "ambiguity2": "Student data is sensitive. Under no circumstances should a student be able to see another student schedule. Also, the system must log every time an advisor manually overrides a prerequisite for audit purposes.",
+    "conflictSolution": "Conflict: The Head of Advising wants students to be able to plan their roadmaps 4 years ahead regardless of course availability, whereas the Registrar states that students shouldn't be able to add a class if it is already full according to the live database.\n\nProposed Solution: Allow students to add any course to their long-term roadmap as a \"Draft/Planned\" status for future semesters. However, for the current or upcoming registration term, the system will validate against the live database; if a class is full, it will display a visual warning or add the student to a waiting list rather than blocking long-term planning.",
+    "nfr1": "The system must guarantee strict data privacy so that students are completely restricted from viewing any other student's academic roadmap or schedule.",
+    "nfr2": "The system must maintain a comprehensive and immutable log of all manual prerequisite overrides executed by advisors for auditing and compliance purposes.",
+    "nfr3": "The system must seamlessly integrate and synchronize with the university's live registration database to ensure real-time course availability checks during active scheduling."
   }
 }
